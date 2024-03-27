@@ -20,6 +20,9 @@ You need to have the following software installed on your machine:
 1. Clone the repository to your local machine:
 
 ```bash
+   https://github.com/ALMAMON193/Vat_calculator.git
+
+
 2. Navigate into the project directory:
     cd vat-calculator
 3 . Install PHP dependencies using Composer:
