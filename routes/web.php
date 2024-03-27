@@ -27,10 +27,11 @@ Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-});
-
+    
 Route::get('/vat-calculator', [VATCalculatorController::class, 'index'])->name('show-vat-calculator');
 Route::post('/calculate-vat', [VATCalculatorController::class, 'calculate'])->name('calculate-vat');
+
+});
 
 
 require __DIR__ . '/auth.php';
